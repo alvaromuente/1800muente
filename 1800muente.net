@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/alvaro/1800muente/1800muente.sch)
-    (date "mar 21 may 2019 08:36:09 -05")
+    (date "Tue May 21 11:11:40 2019")
     (tool "Eeschema 5.1.2-f72e74a~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -706,7 +706,7 @@
       (tstamp 5CF1ABE4))
     (comp (ref K61)
       (value MX-1U)
-      (footprint MX_Alps_Hybrid:MXOnly-2U-NoLED)
+      (footprint MX_Alps_Hybrid:MXOnly-ISO)
       (libsource (lib MX_Alps_Hybrids) (part MX-1U) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CF1ABEB))
