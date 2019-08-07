@@ -564,7 +564,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)
-    (fp_text reference M2_1 (at 0 -3.2) (layer F.SilkS) hide
+    (fp_text reference M2_12 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab)
