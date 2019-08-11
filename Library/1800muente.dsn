@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  401847 -196135  22369.9 -196135  22369.9 -88122.1  401847 -88122.1
-            401847 -196135)
+      (path pcb 0  397878 -88112.6  397878 -192126  26403.3 -192103  26365.2 -88099.9
+            397878 -88112.6)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -33,27 +33,11 @@
     )
   )
   (placement
-    (component Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
-      (place J1 53086 -116205 front 0 (PN Conn_01x04))
-    )
     (component "MX_Alps_Hybrid:MXOnly-ISO"
       (place K61 300224 -130170 front 0 (PN "MX-1U"))
     )
-    (component MountingHole:MountingHole_2.2mm_M2
-      (place M2_11 305994 -194132 front 0 (PN MountingHole_2.2mm_M2))
-      (place M2_3 212115 -90119.2 front 0 (PN MountingHole_2.2mm_M2))
-      (place M2_2 118262 -90119.2 front 0 (PN MountingHole_2.2mm_M2))
-      (place M2_5 399847 -90119.2 front 0 (PN MountingHole_2.2mm_M2))
-      (place M2_8 24384 -194132 front 0 (PN MountingHole_2.2mm_M2))
-      (place M2_6 24384 -142138 front 0 (PN MountingHole_2.2mm_M2))
-    )
-    (component MountingHole:MountingHole_2.2mm_M2::1
-      (place M2_10 212115 -194132 front 0 (PN MountingHole_2.2mm_M2))
-      (place M2_9 118562 -194132 front 0 (PN MountingHole_2.2mm_M2))
-      (place M2_4 305994 -90119.2 front 0 (PN MountingHole_2.2mm_M2))
-      (place M2_7 399847 -142138 front 0 (PN MountingHole_2.2mm_M2))
-      (place M2_12 399847 -194132 front 0 (PN MountingHole_2.2mm_M2))
-      (place M2_1 24384 -90119.2 front 0 (PN MountingHole_2.2mm_M2))
+    (component Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
+      (place J1 53086 -116205 front 0 (PN Conn_01x04))
     )
     (component "MX_Alps_Hybrid:MXOnly-2U-NoLED"
       (place K81 388330 -168270 front 0 (PN "MX-1U"))
@@ -66,7 +50,7 @@
       (place K49 231168 -177795 front 0 (PN "MX-1U"))
       (place K54 259743 -177795 front 0 (PN "MX-1U"))
       (place K2 40667.9 -120645 front 0 (PN "MX-1U"))
-      (place K57_2 297842 -120645 front 180 (PN "MX-1U"))
+      (place K57_2 297842 -120645 front 0 (PN "MX-1U"))
     )
     (component "MX_Alps_Hybrid:MXOnly-1.75U-NoLED"
       (place K58 276412 -158745 front 0 (PN "MX-1U"))
@@ -183,7 +167,7 @@
       (place D76 369280 -147315 front 0 (PN D_Small))
       (place D56 274030 -128265 front 0 (PN D_Small))
       (place D11 74005.4 -107156 front 0 (PN D_Small))
-      (place D4 43688 -166319 front 0 (PN D_Small))
+      (place D4 29337 -158801 front 90 (PN D_Small))
       (place D34 178780 -128265 front 0 (PN D_Small))
       (place D47 240693 -147315 front 0 (PN D_Small))
       (place D42 216880 -128265 front 0 (PN D_Small))
@@ -193,7 +177,7 @@
       (place D26 145443 -147315 front 0 (PN D_Small))
       (place D70 350230 -128265 front 0 (PN D_Small))
       (place D28 150205 -109215 front 0 (PN D_Small))
-      (place D17 102580 -130969 front 0 (PN D_Small))
+      (place D17 101907 -131706 front 0 (PN D_Small))
       (place D8 69242.9 -147315 front 0 (PN D_Small))
       (place D13 88292.9 -147315 front 0 (PN D_Small))
       (place D7 64480.4 -128265 front 0 (PN D_Small))
@@ -208,7 +192,7 @@
       (place D55 264505 -109215 front 0 (PN D_Small))
       (place D33 169255 -109215 front 0 (PN D_Small))
       (place D54 259743 -185415 front 0 (PN D_Small))
-      (place D60 293080 -109215 front 0 (PN D_Small))
+      (place D60 275476 -102400 front 90 (PN D_Small))
       (place D50 245455 -109215 front 0 (PN D_Small))
       (place D23 116868 -166365 front 0 (PN D_Small))
       (place D10 62099.2 -185415 front 0 (PN D_Small))
@@ -221,7 +205,7 @@
       (place D81 388330 -175890 front 0 (PN D_Small))
       (place D36 174018 -166365 front 0 (PN D_Small))
       (place D78 369280 -185415 front 0 (PN D_Small))
-      (place D61 313309 -130200 front 90 (PN D_Small))
+      (place D61 313944 -129794 front 90 (PN D_Small))
       (place D29 159730 -128265 front 0 (PN D_Small))
       (place D48 231168 -166365 front 0 (PN D_Small))
       (place D46 235930 -128265 front 0 (PN D_Small))
@@ -229,9 +213,9 @@
       (place D35 183543 -147315 front 0 (PN D_Small))
       (place D52 259743 -147315 front 0 (PN D_Small))
       (place D71 350230 -147315 front 0 (PN D_Small))
-      (place D32 157349 -185415 front 0 (PN D_Small))
+      (place D32 146926 -177914 front 90 (PN D_Small))
       (place D18 107343 -147315 front 0 (PN D_Small))
-      (place D12 83530.4 -130969 front 0 (PN D_Small))
+      (place D12 82857.3 -131706 front 0 (PN D_Small))
       (place D80 388330 -137790 front 0 (PN D_Small))
       (place D79 388330 -109215 front 0 (PN D_Small))
       (place D25 140680 -128265 front 0 (PN D_Small))
@@ -253,6 +237,38 @@
     )
   )
   (library
+    (image "MX_Alps_Hybrid:MXOnly-ISO"
+      (outline (path signal 150  -16668.8 19050  -16668.8 0))
+      (outline (path signal 150  -11906.2 -19050  11906.2 -19050))
+      (outline (path signal 150  11906.2 19050  11906.2 -19050))
+      (outline (path signal 150  -16668.8 19050  11906.2 19050))
+      (outline (path signal 150  -7000 7000  -7000 5000))
+      (outline (path signal 150  -5000 7000  -7000 7000))
+      (outline (path signal 150  -7000 -7000  -5000 -7000))
+      (outline (path signal 150  -7000 -5000  -7000 -7000))
+      (outline (path signal 150  7000 -7000  7000 -5000))
+      (outline (path signal 150  5000 -7000  7000 -7000))
+      (outline (path signal 150  7000 7000  7000 5000))
+      (outline (path signal 150  5000 7000  7000 7000))
+      (outline (path signal 150  -11906.2 0  -16668.8 0))
+      (outline (path signal 150  -11906.2 -19050  -11906.2 0))
+      (pin Round[A]Pad_2250_um 1 -3810 2540)
+      (pin Round[A]Pad_2250_um 2 2540 5080)
+      (keepout "" (circle F.Cu 3987.8 8255 11938))
+      (keepout "" (circle B.Cu 3987.8 8255 11938))
+      (keepout "" (circle F.Cu 3987.8 8255 -11938))
+      (keepout "" (circle B.Cu 3987.8 8255 -11938))
+      (keepout "" (circle F.Cu 3048 -6985 11938))
+      (keepout "" (circle B.Cu 3048 -6985 11938))
+      (keepout "" (circle F.Cu 3048 -6985 -11938))
+      (keepout "" (circle B.Cu 3048 -6985 -11938))
+      (keepout "" (circle F.Cu 1750 5080 0))
+      (keepout "" (circle B.Cu 1750 5080 0))
+      (keepout "" (circle F.Cu 1750 -5080 0))
+      (keepout "" (circle B.Cu 1750 -5080 0))
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+    )
     (image Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
       (outline (path signal 50  -1800 -9400  -1800 1800))
       (outline (path signal 50  1750 -9400  -1800 -9400))
@@ -273,72 +289,6 @@
       (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
       (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
-    )
-    (image "MX_Alps_Hybrid:MXOnly-ISO"
-      (outline (path signal 150  -16668.8 19050  -16668.8 0))
-      (outline (path signal 150  -11906.2 -19050  11906.2 -19050))
-      (outline (path signal 150  11906.2 19050  11906.2 -19050))
-      (outline (path signal 150  -16668.8 19050  11906.2 19050))
-      (outline (path signal 150  7000 7000  5000 7000))
-      (outline (path signal 150  7000 5000  7000 7000))
-      (outline (path signal 150  -7000 7000  -7000 5000))
-      (outline (path signal 150  -5000 7000  -7000 7000))
-      (outline (path signal 150  -7000 -7000  -5000 -7000))
-      (outline (path signal 150  -7000 -5000  -7000 -7000))
-      (outline (path signal 150  7000 -7000  5000 -7000))
-      (outline (path signal 150  7000 -5000  7000 -7000))
-      (outline (path signal 150  -11906.2 0  -16668.8 0))
-      (outline (path signal 150  -11906.2 -19050  -11906.2 0))
-      (pin Round[A]Pad_2250_um (rotate 270) 1 2540 3810)
-      (pin Round[A]Pad_2250_um (rotate 270) 2 5080 -2540)
-      (keepout "" (circle F.Cu 3987.8 8255 11938))
-      (keepout "" (circle B.Cu 3987.8 8255 11938))
-      (keepout "" (circle F.Cu 3987.8 8255 -11938))
-      (keepout "" (circle B.Cu 3987.8 8255 -11938))
-      (keepout "" (circle F.Cu 3048 -6985 11938))
-      (keepout "" (circle B.Cu 3048 -6985 11938))
-      (keepout "" (circle F.Cu 3048 -6985 -11938))
-      (keepout "" (circle B.Cu 3048 -6985 -11938))
-      (keepout "" (circle F.Cu 1750 0 -5080))
-      (keepout "" (circle B.Cu 1750 0 -5080))
-      (keepout "" (circle F.Cu 1750 0 5080))
-      (keepout "" (circle B.Cu 1750 0 5080))
-      (keepout "" (circle F.Cu 3987.8))
-      (keepout "" (circle B.Cu 3987.8))
-    )
-    (image MountingHole:MountingHole_2.2mm_M2
-      (outline (path signal 50  2450 0  2373.03 -609.29  2146.95 -1180.3  1785.97 -1677.14
-            1312.78 -2068.6  757.092 -2330.09  153.837 -2445.16  -459.084 -2406.6
-            -1043.16 -2216.83  -1561.69 -1887.76  -1982.09 -1440.07  -2277.95 -901.905
-            -2430.68 -307.066  -2430.68 307.066  -2277.95 901.905  -1982.09 1440.07
-            -1561.69 1887.76  -1043.16 2216.83  -459.084 2406.6  153.837 2445.16
-            757.092 2330.09  1312.78 2068.6  1785.97 1677.14  2146.95 1180.3
-            2373.03 609.29  2450 0))
-      (outline (path signal 150  2200 0  2118.42 -593.553  1879.72 -1143.09  1501.62 -1607.84
-            1012.14 -1953.35  447.603 -2153.99  -150.133 -2194.87  -736.735 -2072.97
-            -1268.7 -1797.33  -1706.57 -1388.39  -2017.87 -876.482  -2179.51 -299.567
-            -2179.51 299.567  -2017.87 876.482  -1706.57 1388.39  -1268.7 1797.33
-            -736.735 2072.97  -150.133 2194.87  447.603 2153.99  1012.14 1953.35
-            1501.62 1607.84  1879.72 1143.09  2118.42 593.553  2200 0))
-      (keepout "" (circle F.Cu 2200))
-      (keepout "" (circle B.Cu 2200))
-    )
-    (image MountingHole:MountingHole_2.2mm_M2::1
-      (outline (path signal 150  2200 0  2118.42 -593.553  1879.72 -1143.09  1501.62 -1607.84
-            1012.14 -1953.35  447.603 -2153.99  -150.133 -2194.87  -736.735 -2072.97
-            -1268.7 -1797.33  -1706.57 -1388.39  -2017.87 -876.482  -2179.51 -299.567
-            -2179.51 299.567  -2017.87 876.482  -1706.57 1388.39  -1268.7 1797.33
-            -736.735 2072.97  -150.133 2194.87  447.603 2153.99  1012.14 1953.35
-            1501.62 1607.84  1879.72 1143.09  2118.42 593.553  2200 0))
-      (outline (path signal 50  2450 0  2373.03 -609.29  2146.95 -1180.3  1785.97 -1677.14
-            1312.78 -2068.6  757.092 -2330.09  153.837 -2445.16  -459.084 -2406.6
-            -1043.16 -2216.83  -1561.69 -1887.76  -1982.09 -1440.07  -2277.95 -901.905
-            -2430.68 -307.066  -2430.68 307.066  -2277.95 901.905  -1982.09 1440.07
-            -1561.69 1887.76  -1043.16 2216.83  -459.084 2406.6  153.837 2445.16
-            757.092 2330.09  1312.78 2068.6  1785.97 1677.14  2146.95 1180.3
-            2373.03 609.29  2450 0))
-      (keepout "" (circle F.Cu 2200))
-      (keepout "" (circle B.Cu 2200))
     )
     (image "MX_Alps_Hybrid:MXOnly-2U-NoLED"
       (outline (path signal 150  5000 7000  7000 7000))
@@ -1137,11 +1087,11 @@
       "Net-(D68-Pad2)" "Net-(D69-Pad2)" "Net-(D7-Pad2)" "Net-(D70-Pad2)" "Net-(D71-Pad2)"
       "Net-(D72-Pad2)" "Net-(D73-Pad2)" "Net-(D74-Pad2)" "Net-(D75-Pad2)"
       "Net-(D76-Pad2)" "Net-(D77-Pad2)" "Net-(D78-Pad2)" "Net-(D79-Pad2)"
-      "Net-(D8-Pad2)" "Net-(D80-Pad2)" "Net-(D81-Pad2)" "Net-(D9-Pad2)" "Net-(K61-Pad3)"
-      "Net-(K61-Pad4)" "Net-(R1-Pad2)" "Net-(R2-Pad2)" "Net-(U1-Pad21)" "Net-(U1-Pad22)"
-      "Net-(U1-Pad23)" "Net-(U1-Pad24)" "Net-(U1-Pad3)" "Net-(U1-Pad4)" "Net-(USB1-Pad3)"
-      "Net-(USB1-Pad9)" VCC col0 col1 col2 col3 col4 col5 col6 col7 col8 row0
-      row1 row2 row3 row4 row5 row6 row7 row8
+      "Net-(D8-Pad2)" "Net-(D80-Pad2)" "Net-(D81-Pad2)" "Net-(D9-Pad2)" "Net-(R1-Pad2)"
+      "Net-(R2-Pad2)" "Net-(U1-Pad21)" "Net-(U1-Pad22)" "Net-(U1-Pad23)" "Net-(U1-Pad24)"
+      "Net-(U1-Pad3)" "Net-(U1-Pad4)" "Net-(USB1-Pad3)" "Net-(USB1-Pad9)"
+      VCC col0 col1 col2 col3 col4 col5 col6 col7 col8 row0 row1 row2 row3
+      row4 row5 row6 row7 row8
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

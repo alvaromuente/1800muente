@@ -4506,7 +4506,7 @@
   )
 
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D505E62)
-    (at 313.309 130.2 90)
+    (at 313.944 129.794 90)
     (path /5CF1ABF1)
     (fp_text reference D61 (at 0 0 90) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))

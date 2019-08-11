@@ -327,7 +327,7 @@
     (add_net row8)
   )
 
-  (module MX_Alps_Hybrid:MXOnly-ISO (layer F.Cu) (tedit 5D5060A5) (tstamp 5CE4B3D1)
+  (module MX_Alps_Hybrid:MXOnly-ISO (layer F.Cu) (tedit 5D5060A5) (tstamp 5D506F00)
     (at 300.224 130.17)
     (path /5CF1ABEB)
     (fp_text reference K61 (at 0 3.175) (layer Dwgs.User)
@@ -4506,7 +4506,7 @@
   )
 
   (module Keebio-Parts:Diode (layer F.Cu) (tedit 549B02AC) (tstamp 5D505E62)
-    (at 285.242 120.65 90)
+    (at 313.944 129.794 90)
     (path /5CF1ABF1)
     (fp_text reference D61 (at 0 0 90) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
