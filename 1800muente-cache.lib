@@ -1,6 +1,31 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 1800muente-rescue_MX-1U-MX_Alps_Hybrids
+#
+DEF 1800muente-rescue_MX-1U-MX_Alps_Hybrids MX 0 40 Y Y 1 F N
+F0 "MX" 0 125 60 H V C CNN
+F1 "1800muente-rescue_MX-1U-MX_Alps_Hybrids" 0 50 20 H V C CNN
+F2 "" -25 -25 60 H I C CNN
+F3 "" -25 -25 60 H I C CNN
+DRAW
+C 30 -30 14 0 0 5 N
+T 0 175 75 30 0 0 0 1-COL Normal 0 C C
+T 0 175 -25 30 0 0 0 LED Normal 0 C C
+T 900 -25 -200 30 0 0 0 ROW Normal 0 R C
+T 900 25 -150 30 0 1 0 LEDGND Normal 0 R C
+S 75 -75 -75 75 0 0 5 N
+P 2 0 0 5 -25 -75 -25 25 N
+P 2 0 0 5 25 -75 25 -50 N
+P 2 0 0 5 75 -25 50 -25 N
+P 3 0 0 5 75 25 25 25 -25 50 N
+X COL 1 175 25 100 L 0 0 1 1 P
+X ROW 2 -25 -175 100 U 0 0 1 1 P
+X LED 3 125 -25 50 L 0 0 1 1 P
+X LEDGND 4 25 -125 50 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x04
 #
 DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
@@ -60,31 +85,6 @@ DRAW
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# MX_Alps_Hybrids_MX-1U
-#
-DEF MX_Alps_Hybrids_MX-1U MX 0 40 Y Y 1 F N
-F0 "MX" 0 125 60 H V C CNN
-F1 "MX_Alps_Hybrids_MX-1U" 0 50 20 H V C CNN
-F2 "" -25 -25 60 H I C CNN
-F3 "" -25 -25 60 H I C CNN
-DRAW
-C 30 -30 14 0 0 5 N
-T 0 175 75 30 0 0 0 1-COL Normal 0 C C
-T 0 175 -25 30 0 0 0 LED Normal 0 C C
-T 900 -25 -200 30 0 0 0 ROW Normal 0 R C
-T 900 25 -150 30 0 1 0 LEDGND Normal 0 R C
-S 75 -75 -75 75 0 0 5 N
-P 2 0 0 5 -25 -75 -25 25 N
-P 2 0 0 5 25 -75 25 -50 N
-P 2 0 0 5 75 -25 50 -25 N
-P 3 0 0 5 75 25 25 25 -25 50 N
-X COL 1 175 25 100 L 0 0 1 1 P
-X ROW 2 -25 -175 100 U 0 0 1 1 P
-X LED 3 125 -25 50 L 0 0 1 1 P
-X LEDGND 4 25 -125 50 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
