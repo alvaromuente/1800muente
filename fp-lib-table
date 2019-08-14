@@ -3,4 +3,5 @@
   (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/kicad_libraries/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/kicad_libraries/Keebio-Parts.pretty)(options "")(descr ""))
   (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/kicad_libraries/Type-C.pretty)(options "")(descr ""))
+  (lib (name muente)(type KiCad)(uri ${KIPRJMOD}/kicad_libraries/muente.pretty)(options "")(descr ""))
 )
