@@ -68,17 +68,6 @@ NoConn ~ 5050 4000
 NoConn ~ 5050 3900
 NoConn ~ 5050 3800
 $Comp
-L keebio:HRO-TYPE-C-31-M-12 USB1
-U 1 1 5CEF2187
-P 3075 2325
-F 0 "USB1" H 2908 3122 60  0000 C CNN
-F 1 "HRO-TYPE-C-31-M-12" H 2908 3016 60  0000 C CNN
-F 2 "Type-C:HRO-TYPE-C-31-M-12-HandSoldering" H 3075 2325 60  0001 C CNN
-F 3 "" H 3075 2325 60  0001 C CNN
-	1    3075 2325
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5CF08108
 P 4975 2275
@@ -89,53 +78,6 @@ F 3 "~" H 4975 2275 50  0001 C CNN
 	1    4975 2275
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3175 2975 3925 2975
-Wire Wire Line
-	3925 2975 3925 3225
-Wire Wire Line
-	3175 2875 3925 2875
-Wire Wire Line
-	3925 2875 3925 2975
-Connection ~ 3925 2975
-Wire Wire Line
-	3925 2675 3925 2875
-Connection ~ 3925 2875
-$Comp
-L Device:R_Small R2
-U 1 1 5CEC0033
-P 3575 2675
-F 0 "R2" V 3650 2800 50  0000 C CNN
-F 1 "5.1k" V 3575 2675 39  0000 C CNN
-F 2 "Keebio-Parts:Resistor" H 3575 2675 50  0001 C CNN
-F 3 "~" H 3575 2675 50  0001 C CNN
-	1    3575 2675
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3675 2675 3925 2675
-Wire Wire Line
-	3175 2675 3475 2675
-NoConn ~ 3175 2575
-Wire Wire Line
-	3175 2075 3300 2075
-Wire Wire Line
-	3300 2075 3300 2575
-Wire Wire Line
-	3300 2575 3475 2575
-Wire Wire Line
-	3675 2575 3925 2575
-Wire Wire Line
-	3925 2575 3925 2675
-Connection ~ 3925 2675
-Wire Wire Line
-	3300 1775 3175 1775
-Wire Wire Line
-	3175 1875 3425 1875
-Wire Wire Line
-	3425 1875 3425 2775
-Wire Wire Line
-	3425 2775 3175 2775
 Text GLabel 4775 2175 0    50   Input ~ 0
 VCC
 Text GLabel 4775 2275 0    50   Input ~ 0
@@ -144,49 +86,6 @@ Text GLabel 4775 2375 0    50   Input ~ 0
 D-
 Text GLabel 4775 2475 0    50   Input ~ 0
 GND
-Text GLabel 3300 1775 2    50   Input ~ 0
-GND
-Text GLabel 3925 3225 3    50   Input ~ 0
-GND
-Text GLabel 3675 1875 2    50   Input ~ 0
-VCC
-Wire Wire Line
-	3675 1875 3425 1875
-Connection ~ 3425 1875
-NoConn ~ 3175 1975
-Text GLabel 3675 2175 2    50   Input ~ 0
-D-
-Text GLabel 3675 2475 2    50   Input ~ 0
-D+
-Wire Wire Line
-	3675 2175 3575 2175
-$Comp
-L Device:R_Small R1
-U 1 1 5CEAB997
-P 3575 2575
-F 0 "R1" V 3625 2700 50  0000 C CNN
-F 1 "5.1k" V 3575 2575 39  0000 C CNN
-F 2 "Keebio-Parts:Resistor" H 3575 2575 50  0001 C CNN
-F 3 "~" H 3575 2575 50  0001 C CNN
-	1    3575 2575
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3175 2475 3500 2475
-Wire Wire Line
-	3175 2275 3500 2275
-Wire Wire Line
-	3500 2275 3500 2475
-Connection ~ 3500 2475
-Wire Wire Line
-	3500 2475 3675 2475
-Wire Wire Line
-	3175 2375 3575 2375
-Wire Wire Line
-	3575 2375 3575 2175
-Connection ~ 3575 2175
-Wire Wire Line
-	3575 2175 3175 2175
 Connection ~ 12175 7325
 Wire Wire Line
 	12175 7325 12175 8075
@@ -2671,4 +2570,24 @@ F 3 "" H 7975 4325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7975 4525
+$Comp
+L keebio:USB-Mini USB1
+U 1 1 5D624C8A
+P 3800 2600
+F 0 "USB1" H 3783 3297 60  0000 C CNN
+F 1 "USB-Mini" H 3783 3191 60  0000 C CNN
+F 2 "Keebio-Parts:USB-Mini-B_ LCSC-C46398" H 3750 2650 60  0001 C CNN
+F 3 "" H 3750 2650 60  0001 C CNN
+	1    3800 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 2150 2    50   Input ~ 0
+VCC
+Text GLabel 4000 2350 2    50   Input ~ 0
+D+
+Text GLabel 4000 2250 2    50   Input ~ 0
+D-
+Text GLabel 4000 2550 2    50   Input ~ 0
+GND
+NoConn ~ 4000 2450
 $EndSCHEMATC
