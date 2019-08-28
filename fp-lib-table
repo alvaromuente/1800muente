@@ -4,4 +4,5 @@
   (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/kicad_libraries/Keebio-Parts.pretty)(options "")(descr ""))
   (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/kicad_libraries/Type-C.pretty)(options "")(descr ""))
   (lib (name muente)(type KiCad)(uri ${KIPRJMOD}/kicad_libraries/muente.pretty)(options "")(descr ""))
+  (lib (name local)(type KiCad)(uri ${KIPRJMOD}/local.pretty)(options "")(descr ""))
 )
